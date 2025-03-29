@@ -118,7 +118,7 @@ export default function Chat() {
           type="text"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
-          onKeyPress={handleTyping}
+          onKeyPress={handleTyping} 
           placeholder="Type a message"
           className="border p-2 mr-2 w-full"
         />
